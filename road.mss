@@ -3,6 +3,7 @@
 @main:              #fea;
 @street:            #fff;
 @street_limited:    #f3f3f3;
+@railway:           #4d4545;
 
 // ---------------------------------------------------------------------
 
@@ -137,12 +138,12 @@
     }
     [class='major_rail'] {
       line-width: 0.4;
-      line-color: #bbb;
+      line-color: @railway;
       [zoom>=16] {
         line-width: 0.75;
       	// Hatching
       	h/line-width: 3;
-      	h/line-color: #bbb;
+      	h/line-color: @railway;
       	h/line-dasharray: 1,31;
       }
     }

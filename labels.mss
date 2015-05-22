@@ -1,3 +1,9 @@
+@place_label_fill: white;
+@place_label_outline: #666666;
+
+@road_label_fill: white;
+@road_label_outline: #666666;
+
 // =====================================================================
 // LABELS
 
@@ -43,7 +49,7 @@
   text-transform: uppercase;
   text-wrap-width: 100;
   text-wrap-before: true;
-  text-fill: #334;
+  text-fill: @place_label_fill;
   text-halo-fill: fadeout(#fff,80%);
   text-halo-radius: 2;
   text-halo-rasterizer: fast;
@@ -127,7 +133,7 @@
     [zoom=7] { shield-size: 14; }
     shield-face-name: @sans;
     shield-placement: point;
-    shield-fill: #333;
+    shield-fill: @place_label_fill;
     shield-halo-fill: fadeout(#fff, 50%);
     shield-halo-radius: 1;
     shield-halo-rasterizer: fast;
@@ -147,8 +153,8 @@
   text-face-name: @sans;
   text-wrap-width: 120;
   text-wrap-before: true;
-  text-fill: #333;
-  text-halo-fill: fadeout(#fff, 50%);
+  text-fill: @place_label_fill;
+  text-halo-fill: fadeout(@place_label_outline, 50%);
   text-halo-radius: 1;
   text-halo-rasterizer: fast;
   text-size: 10;
@@ -183,7 +189,7 @@
   [type='hamlet'],
   [type='suburb'],
   [type='neighbourhood'] {
-    text-fill: #633;
+    text-fill: @place_label_fill;
     text-face-name:	@sans_bd;
     text-transform: uppercase;
     text-character-spacing: 0.5;
@@ -241,7 +247,7 @@
   // in _src folder
   shield-name: [ref];
   shield-face-name: @sans_bd;
-  shield-fill: #765;
+  shield-fill: @road_label_fill;
   shield-min-distance: 60;
   shield-min-padding: 8;  // prevents clipped shields at tile edges
   shield-size: 9;
@@ -256,8 +262,8 @@
   text-name: @name;
   text-placement: line;  // text follows line path
   text-face-name: @sans;
-  text-fill: #765;
-  text-halo-fill: fadeout(#fff, 50%);
+  text-fill: @road_label_fill;
+  text-halo-fill: fadeout(@road_label_outline, 50%);
   text-halo-radius: 1;
   text-halo-rasterizer: fast;
   text-size: 12;
