@@ -7565,12 +7565,12 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <Filter>([reflen] &gt;= 1) and ([reflen] &lt;= 6)</Filter>
-    <ShieldSymbolizer size="11" file="shield/motorway_lg_[reflen].png" fontset-name="fontset-0" fill="#ffffff" minimum-distance="60" minimum-padding="8" ><![CDATA[[ref]]]></ShieldSymbolizer>
+    <ShieldSymbolizer size="11" file="shield/motorway_lg_[reflen].png" fontset-name="fontset-0" fill="#253039" minimum-distance="60" minimum-padding="8" ><![CDATA[[ref]]]></ShieldSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([reflen] &gt;= 1) and ([reflen] &lt;= 6)</Filter>
-    <ShieldSymbolizer fontset-name="fontset-0" fill="#ffffff" minimum-distance="60" minimum-padding="8" size="9" file="shield/motorway_sm_[reflen].png" ><![CDATA[[ref]]]></ShieldSymbolizer>
+    <ShieldSymbolizer fontset-name="fontset-0" fill="#253039" minimum-distance="60" minimum-padding="8" size="9" file="shield/motorway_sm_[reflen].png" ><![CDATA[[ref]]]></ShieldSymbolizer>
   </Rule>
 </Style>
 <Layer name="road_label"

@@ -270,7 +270,7 @@
   // in _src folder
   shield-name: [ref];
   shield-face-name: @sans_bd;
-  shield-fill: @road_label_fill;
+  shield-fill: @motorway;
   shield-min-distance: 60;
   shield-min-padding: 8;  // prevents clipped shields at tile edges
   shield-size: 9;
@@ -280,6 +280,7 @@
     shield-file: url('shield/motorway_lg_[reflen].png');
   }
 }
+
 
 #road_label {
   text-name: @name;
