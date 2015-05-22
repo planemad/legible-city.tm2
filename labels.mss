@@ -189,15 +189,15 @@
     [zoom>=16] { text-size: 22; }
   }
   [type='suburb'] {
-    text-size: 12;
+    text-size: 14;
     text-fill: @place_label_fill;
     text-face-name:	@place_label_font;
     text-transform: uppercase;
-    text-character-spacing: 1;
+    text-character-spacing: 0.5;
     text-opacity:1;
     [zoom>=14] { text-size: 14; }
-    [zoom>=15] { text-size: 18; text-character-spacing: 4; }
-    [zoom>=16] { text-size: 20; text-character-spacing: 6; }
+    [zoom>=15] { text-size: 18; text-character-spacing: 1; }
+    [zoom>=16] { text-size: 20; text-character-spacing: 2; }
   }
   [type='hamlet'],
   [type='neighbourhood'] {
@@ -261,9 +261,6 @@
 
 
 
-
-
-
 // ---------------------------------------------------------------------
 // Roads
 
@@ -299,9 +296,8 @@
   [class='street'],[class='street_limited']{
     text-face-name: @road_label_font;
     text-size: 10;
-    text-dy:4;
-    text-halo-radius: 1;
-    text-halo-fill: @land;
+    text-dy:3;
+    text-halo-radius: 0;
     [zoom<16]{
       text-size:0;
       }

@@ -7,15 +7,13 @@
 // Eg. @water is used in the #water and #waterway layers directly, but
 // also in the #water_label and #waterway_label layers inside a color
 // manipulation function to get a darker shade of the same hue.
-@land: #7f98ab;
-@water: #1ba4dd;
-@grass: #7bbd57;
+@land: #8d91ab;
+@water: #00a1f6;
+@grass: #3bb93b;
 
-@hospital:#460303;
+@hospital:#d78a8a;
 @school: lighten(@land,7%);
 @cemetery:darken(@grass,30%);
-
-@building_fill:darken(@land,7%);
 
 Map {
   background-color:@land;
@@ -121,15 +119,15 @@ Map {
 #building [zoom<=17]{
   // At zoom level 13, only large buildings are included in the
   // vector tiles. At zoom level 14+, all buildings are included.
-  polygon-fill: @building_fill;
-  opacity: 0.9;
+  polygon-fill: darken(@land, 50%);
+  opacity: 0.1;
 }
 // Seperate attachments are used to draw buildings with depth
 // to make them more prominent at high zoom levels
 #building [zoom>=18]{
-::wall { polygon-fill:@building_fill; }
+::wall { polygon-fill:mix(@land, #000, 85); }
 ::roof {
-  polygon-fill: @building_fill;
+  polygon-fill: darken(@land, 5%);
   polygon-geometry-transform:translate(-1,-1.5);
   polygon-clip:false;  
   line-width: 0.5;
