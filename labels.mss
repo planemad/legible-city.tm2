@@ -216,7 +216,7 @@
 // ---------------------------------------------------------------------
 // Points of interest
 
-/*
+
 #poi_label[zoom=14][scalerank<=1],
 #poi_label[zoom=15][scalerank<=2],
 #poi_label[zoom=16][scalerank<=3],
@@ -230,27 +230,34 @@
     // can use that in our url expression.
     // Not all POIs have a Maki icon assigned, so we limit this section
     // to those that do. See also <https://www.mapbox.com/maki/>
-    marker-fill:#666;
+    marker-fill:#dcf400;
+    [scalerank>3]{
+      marker-fill:white;
+    marker-width :14;}
+    marker-width :18;
+    marker-line-color: #ff670a;
     marker-file:url('icon/[maki]-12.svg');
   }
   ::label {
     text-name: @name;
-    text-face-name: @sans_md;
+    text-face-name: "PT Sans Narrow Bold";
     text-size: 12;
-    text-fill: #666;
-    text-halo-fill: fadeout(#fff, 50%);
-    text-halo-radius: 1;
+    text-fill: #f3f60a;
+     [scalerank>3]{
+      text-fill:white;}
+    text-halo-fill: fadeout(#1f1c17, 90%);
+    text-halo-radius: 2;
     text-halo-rasterizer: fast;
-    text-wrap-width: 70;
+    text-wrap-width: 80;
     text-line-spacing:	-1;
     //text-transform: uppercase;
     //text-character-spacing:	0.25;
     // POI labels with an icon need to be offset:
-    [maki!=null] { text-dy: 8; }
+    [maki!=null] { text-dy: 12; }
   }
 }
 
-*/
+
 
 
 
