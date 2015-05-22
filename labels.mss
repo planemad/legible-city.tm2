@@ -2,7 +2,7 @@
 @place_label_outline: darken(@land,10%);
 
 @road_label_fill: white;
-@road_label_outline: #666666;
+@road_label_outline: @main;
 
 // =====================================================================
 // LABELS
@@ -37,7 +37,7 @@
 @sans_it: 'Open Sans Italic', @fallback;
 
 @place_label_font: 'Mark Offc Pro Book';
-
+@road_label_font: 'Lato Light';
 
 // ---------------------------------------------------------------------
 // Countries
@@ -256,7 +256,7 @@
 
 // ---------------------------------------------------------------------
 // Roads
-/*
+
 #road_label[reflen>=1][reflen<=6]::shield {
   // Motorways with a 'ref' tag that is 1-6 characters long have a
   // [ref] value for shield-style labels.
@@ -278,16 +278,25 @@
 #road_label {
   text-name: @name;
   text-placement: line;  // text follows line path
-  text-face-name: @sans;
+  text-face-name: 'Lato Regular';
   text-fill: @road_label_fill;
   text-halo-fill: fadeout(@road_label_outline, 50%);
   text-halo-radius: 1;
   text-halo-rasterizer: fast;
-  text-size: 12;
+  text-size: 11;
   text-avoid-edges: true;  // prevents clipped labels at tile edges
-  [zoom>=15] { text-size: 13; }
+  [zoom>=15] { text-size: 11; }
+  [class='street'],[class='street_limited']{
+    text-face-name: @road_label_font;
+    text-size: 10;
+    text-dy:3;
+    text-halo-radius: 0;
+    [zoom<16]{
+      text-size:0;
+      }
+    }
 }
-*/
+
 
 // ---------------------------------------------------------------------
 // Water

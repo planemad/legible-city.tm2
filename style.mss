@@ -11,6 +11,10 @@
 @water: #00a1f6;
 @grass: #3bb93b;
 
+@hospital:#d78a8a;
+@school: lighten(@land,7%);
+@cemetery:darken(@grass,30%);
+
 Map {
   background-color:@land;
 }
@@ -99,9 +103,9 @@ Map {
   // is a highly opinionated simplification of the myriad LULC
   // tag combinations into a limited set of general classes.
   [class='park'] { polygon-fill: @grass; }
-  [class='cemetery'] { polygon-fill: mix(@grass, #ddd, 25%); }
-  [class='hospital'] { polygon-fill: #fde; }
-  [class='school'] { polygon-fill: #f0e8f8; }
+  [class='cemetery'] { polygon-fill: @cemetery; }
+  [class='hospital'] { polygon-fill: @hospital; }
+  [class='school'] { polygon-fill: @school; }
   ::overlay {
     // Landuse classes look better as a transparent overlay.
     opacity: 0.1;
