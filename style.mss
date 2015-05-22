@@ -7,8 +7,9 @@
 // Eg. @water is used in the #water and #waterway layers directly, but
 // also in the #water_label and #waterway_label layers inside a color
 // manipulation function to get a darker shade of the same hue.
-@land: #f8f4f0;
-@water: #a0c8f0;
+@land: #74a3d4;
+@water: #73dfef;
+@grass: #60d260;
 
 Map {
   background-color:@land;
@@ -97,14 +98,14 @@ Map {
   // OpenStreetMap, so this layer includes both. The 'class' field
   // is a highly opinionated simplification of the myriad LULC
   // tag combinations into a limited set of general classes.
-  [class='park'] { polygon-fill: #d8e8c8; }
-  [class='cemetery'] { polygon-fill: mix(#d8e8c8, #ddd, 25%); }
+  [class='park'] { polygon-fill: @grass; }
+  [class='cemetery'] { polygon-fill: mix(@grass, #ddd, 25%); }
   [class='hospital'] { polygon-fill: #fde; }
   [class='school'] { polygon-fill: #f0e8f8; }
   ::overlay {
     // Landuse classes look better as a transparent overlay.
     opacity: 0.1;
-    [class='wood'] { polygon-fill: #6a4; polygon-gamma: 0.5; }
+    [class='wood'] { polygon-fill: darken(@grass,10%); polygon-gamma: 0.5; }
   }
 }
 
