@@ -657,13 +657,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -686,13 +686,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -721,13 +721,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -756,13 +756,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -791,13 +791,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -1323,181 +1323,6 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
     <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
@@ -1669,6 +1494,181 @@
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke-dasharray="3, 2" stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
     <LineSymbolizer stroke-dasharray="3, 2" stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
   <Rule>
@@ -2437,13 +2437,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -2466,13 +2466,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -2501,13 +2501,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -2536,13 +2536,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -2571,13 +2571,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -4507,13 +4507,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -4536,13 +4536,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -4571,13 +4571,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -4606,13 +4606,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
@@ -4641,13 +4641,13 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="2" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
-    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#778b95" stroke-linejoin="round" />
+    <LineSymbolizer stroke-linecap="round" stroke-width="1.5" stroke="#485d6d" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -5323,156 +5323,1060 @@
 </Style>
 <Style name="bridge-case" filter-mode="first">
   <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
-  </Rule>
-  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-width="8" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="8" stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-width="11" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="11" stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-width="12" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="12" stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="1.2" stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke="#ccbbaa" stroke-dasharray="2, 1" stroke-width="14" stroke-linejoin="round" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="14" stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'path') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.5" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.2" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-dasharray="2, 1" stroke-width="8" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="8" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="8" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="13" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="8" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="13" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="8" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.5" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.2" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-dasharray="2, 1" stroke-width="11" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="11" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="11" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="16" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="11" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="16" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="11" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.5" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.2" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-dasharray="2, 1" stroke-width="12" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="12" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="12" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="18" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="12" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="18" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="12" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.5" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.2" stroke-dasharray="2, 1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-dasharray="2, 1" stroke-width="14" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="14" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'path')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="14" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'service')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street_limited')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="6.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="20" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="14" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="20" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="14" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="4" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="9" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="7" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="3" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="1.5" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.6" stroke-linejoin="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
+    <LineSymbolizer stroke="#dfdfdf" stroke-width="0.4" stroke-linejoin="round" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
@@ -5493,134 +6397,6 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="8" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="11" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="12" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="14" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'service')</Filter>
     <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
@@ -5632,333 +6408,6 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>200000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street_limited')</Filter>
     <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
@@ -5982,475 +6431,26 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="3" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="3" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="3" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="3" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
     <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link') and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
-    <LineSymbolizer stroke-width="6.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
-    <LineSymbolizer stroke-width="3" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway_link')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="13" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="8" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="3.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="3" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>6500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>6500000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="13" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-width="8" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'tertiary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="16" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="11" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>6500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>6500000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="16" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="11" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'secondary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="18" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="12" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>6500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>6500000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="18" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="12" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'primary')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="20" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="14" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>6500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.6" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>6500000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk') and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="20" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="14" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([type] = 'trunk')</Filter>
-    <LineSymbolizer stroke-linejoin="round" stroke="#9eb1bf" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="9" stroke-linejoin="round" stroke="#3e242b" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="7" stroke-linejoin="round" stroke="#3e242b" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-linejoin="round" stroke="#3e242b" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="3.5" stroke-linejoin="round" stroke="#3e242b" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>750000</MaxScaleDenominator>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="3" stroke-linejoin="round" stroke="#3e242b" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>3000000</MaxScaleDenominator>
-    <MinScaleDenominator>750000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="1.5" stroke-linejoin="round" stroke="#3e242b" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>6500000</MaxScaleDenominator>
-    <MinScaleDenominator>3000000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.6" stroke-linejoin="round" stroke="#3e242b" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500000</MaxScaleDenominator>
-    <MinScaleDenominator>6500000</MinScaleDenominator>
-    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'motorway')</Filter>
-    <LineSymbolizer stroke-width="0.4" stroke-linejoin="round" stroke="#3e242b" />
+    <Filter>([mapnik::geometry_type] = 2) and ([class] = 'street')</Filter>
+    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" stroke="#9eb1bf" />
   </Rule>
 </Style>
 <Layer name="bridge"
