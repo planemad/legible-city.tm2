@@ -1,5 +1,5 @@
 @place_label_fill: white;
-@place_label_outline: #666666;
+@place_label_outline: darken(@land,10%);
 
 @road_label_fill: white;
 @road_label_outline: #666666;
@@ -35,6 +35,8 @@
 @sans_md: 'Open Sans Semibold', @fallback;
 @sans_bd: 'Open Sans Bold', @fallback;
 @sans_it: 'Open Sans Italic', @fallback;
+
+@place_label_font: 'Mark Offc Pro Book';
 
 
 // ---------------------------------------------------------------------
@@ -150,7 +152,7 @@
 
 #place_label[zoom>=8][localrank<=3] {
   text-name: @name;
-  text-face-name: @sans;
+  text-face-name: @place_label_font;
   text-wrap-width: 120;
   text-wrap-before: true;
   text-fill: @place_label_fill;
@@ -186,13 +188,24 @@
     [zoom>=14] { text-size: 18; }
     [zoom>=16] { text-size: 22; }
   }
-  [type='hamlet'],
-  [type='suburb'],
-  [type='neighbourhood'] {
+  [type='suburb'] {
+    text-size: 14;
     text-fill: @place_label_fill;
-    text-face-name:	@sans_bd;
+    text-face-name:	@place_label_font;
     text-transform: uppercase;
     text-character-spacing: 0.5;
+    text-opacity:1;
+    [zoom>=14] { text-size: 14; }
+    [zoom>=15] { text-size: 18; text-character-spacing: 1; }
+    [zoom>=16] { text-size: 20; text-character-spacing: 2; }
+  }
+  [type='hamlet'],
+  [type='neighbourhood'] {
+    text-fill: @place_label_fill;
+    text-face-name:	@place_label_font;
+    text-transform: uppercase;
+    text-character-spacing: 0.5;
+    text-halo-radius:0.5;
     [zoom>=14] { text-size: 11; }
     [zoom>=15] { text-size: 12; text-character-spacing: 1; }
     [zoom>=16] { text-size: 14; text-character-spacing: 2; }
@@ -203,6 +216,7 @@
 // ---------------------------------------------------------------------
 // Points of interest
 
+/*
 #poi_label[zoom=14][scalerank<=1],
 #poi_label[zoom=15][scalerank<=2],
 #poi_label[zoom=16][scalerank<=3],
@@ -236,10 +250,13 @@
   }
 }
 
+*/
+
+
 
 // ---------------------------------------------------------------------
 // Roads
-
+/*
 #road_label[reflen>=1][reflen<=6]::shield {
   // Motorways with a 'ref' tag that is 1-6 characters long have a
   // [ref] value for shield-style labels.
@@ -270,7 +287,7 @@
   text-avoid-edges: true;  // prevents clipped labels at tile edges
   [zoom>=15] { text-size: 13; }
 }
-
+*/
 
 // ---------------------------------------------------------------------
 // Water
